@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<computer_hardware>
+    <hardware name="CPU">
+        <cores>Number of processing units inside the CPU.</cores>
+        <clock_speed>The rate at which the CPU executes instructions.</clock_speed>
+        <cache>Small, high-speed memory for storing frequently accessed data.</cache>
+        <TDP>Amount of heat the CPU generates under maximum load.</TDP>
+    </hardware>
+    <hardware name="RAM">
+        <capacity>Total amount of memory (e.g., 8GB, 16GB).</capacity>
+        <speed>Data transfer rate (measured in MHz).</speed>
+        <latency>Time delay between request and response for data.</latency>
+        <form_factor>Physical size and shape of the RAM (e.g., DIMM, SO-DIMM).</form_factor>
+    </hardware>
+    <hardware name="GPU">
+        <VRAM>Video RAM used by the GPU for storing textures and image data.</VRAM>
+        <CUDA_cores>Processing units in NVIDIA GPUs, important for parallel tasks.</CUDA_cores>
+        <clock_speed>Rate at which the GPU processes data.</clock_speed>
+        <ports>Connections for output to monitors (HDMI, DisplayPort).</ports>
+    </hardware>
+</computer_hardware>

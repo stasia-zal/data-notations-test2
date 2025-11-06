@@ -1,0 +1,21 @@
+
+[
+    {
+      "component": "CPU",
+      "cores": 8,
+      "clock_speed": 3.6,
+      "overclockable": true
+    },
+    {
+      "component": "RAM",
+      "speed": 3200,
+      "is_ecc": false,
+      "voltage": 1.35
+    },
+    {
+      "component": "SSD",
+      "read_speed": 3500.5,
+      "write_speed": 3000,
+      "is_nvme": true
+    }
+]
