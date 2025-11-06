@@ -1,4 +1,3 @@
-
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -11,9 +10,9 @@ body {
 }
 
 .container {
-    width:fit-content;
-    margin: 1 cm auto;
+    margin: 1 cm;
     padding: 0 20px;
+    align-items: center;
 }
 
 nav {
@@ -25,7 +24,8 @@ nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    float: right;
+    display:flex;
+    justify-content: center;
 }
 
 nav li {
@@ -86,17 +86,18 @@ footer a:hover {
     background-color: blue;
 }
 
-/* --- Task 2: Data Page Styles --- */
+#title2{
+    margin-top: 1cm;
+}
 
-/* 2b. Table styling */
 .data-table {
-    width: 90%;
+    width: 60%;
     margin: 30px auto;
-    border-collapse: collapse; /* Single line border */
+    border-collapse: collapse; 
 }
 
 .data-table th, .data-table td {
-    border: 1px solid black; /* Single solid line border */
+    border: 1px solid black; 
     padding: 10px;
     text-align: left;
 }
@@ -106,29 +107,27 @@ footer a:hover {
     color: white;
 }
 
-/* --- Task 3: Images Page Styles --- */
 
-/* 3b. Image gallery */
 .gallery {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 1cm; /* 1cm gap between images */
+    gap: 1cm; 
     margin-top: 30px;
 }
 
 .gallery a {
-    display: block; /* To contain the image */
+    display: block; 
 }
 
 .gallery img {
     width: 250px;
     height: 250px;
-    object-fit: cover; /* Ensures images are same size without distortion */
-    border: 4px solid #555; /* Frame around each image */
+    object-fit: cover; 
+    border: 4px solid #555; 
 }
 
-/* --- Task 4: Form Page Styles --- */
+/* Task 4 */
 .contact-form {
     max-width: 600px;
     margin: 20px auto;
@@ -147,21 +146,19 @@ footer a:hover {
     font-weight: bold;
 }
 
-/* 4b. Edit fields with blue background */
 .contact-form input[type="text"],
 .contact-form input[type="email"],
 .contact-form select {
     width: 100%;
     padding: 8px;
-    box-sizing: border-box; /* Fixes padding and width issues */
+    box-sizing: border-box;
 }
 
 .contact-form input[type="text"],
 .contact-form input[type="email"] {
-    background-color: #e0f0ff; /* Light blue background */
+    background-color: #e0f0ff; 
 }
 
-/* 4c. Green buttons */
 .btn {
     padding: 10px 20px;
     border: none;
@@ -173,23 +170,21 @@ footer a:hover {
 }
 
 .btn {
-    background-color: #28a745; /* Green */
+    background-color: #28a745; 
 }
 
-/* --- Task 5: Author Page Styles --- */
 
-/* 5b. Numbered list styling */
 .author-list {
-    list-style-type: upper-alpha; /* A, B, C... */
-    border: 2px solid #333; /* Box around the list */
-    padding: 30px 30px 30px 60px; /* Padding for box and list markers */
+    list-style-type: upper-alpha; 
+    border: 2px solid #333;
+    padding: 30px 30px 30px 60px;
     margin: 30px auto;
     max-width: 500px;
     background: #fff;
 }
 
 .author-list li {
-    font-weight: bold; /* Bold text */
+    font-weight: bold; 
     margin-bottom: 10px;
 }
 
